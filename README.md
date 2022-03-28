@@ -1,1 +1,1 @@
-# credhub-migration
+# docs-credhub
