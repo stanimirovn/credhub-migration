@@ -54,6 +54,8 @@ capabilities.
 
 <%= partial './oss_credhub' %>
 
+<%= partial '/partials-migration/core/2-12/_app_mtu.html' %> 
+
 ## <a name="cred-types"></a> CredHub Credential Types
 
 Credentials exist in multiple places.
@@ -69,4 +71,3 @@ CredHub does not hold state, but you must ensure its dependent components are ba
 prevent data loss if an individual component fails. For more information, see
 [Backing Up and Restoring CredHub Instances](backup-restore.html).
 
-<%= partial './core/2-12/bosh-runtime-credhub' %>
