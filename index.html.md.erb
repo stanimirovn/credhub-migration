@@ -44,6 +44,8 @@ CredHub performs a number of different functions to help generate and protect th
 * Credential metadata
 * Credential versioning
 
+<%= partial './core/2-12/bosh-runtime-credhub' %>
+
 ## <a name="application-architecture"></a> App Architecture
 
 CredHub consists of a REST API and a CLI. CredHub is an OAuth2
@@ -53,7 +55,7 @@ capabilities.
 ![Diagram shows that the CredHub CLI interacts with CredHub to export credentials to the Encryption Provider, Data Store, and Authentication Provider](images/basic-architecture.png)
 
 <%= partial './oss_credhub' %>
-<%= partial './core/2-12/bosh-runtime-credhub' %>
+
 
 ## <a name="cred-types"></a> CredHub Credential Types
 
